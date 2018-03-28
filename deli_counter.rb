@@ -35,7 +35,7 @@ def now_serving(current_line)
 end
 
 
-current_line[0]
+
 
 #if 0 < current_line.length
 #count = 0
