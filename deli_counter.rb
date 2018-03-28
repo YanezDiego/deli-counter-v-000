@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(current_line)
-  if current_line > 0
+  if 0<current_line
     current_line.each do
       puts "Currently serving #{current_line.shift}"
     end
