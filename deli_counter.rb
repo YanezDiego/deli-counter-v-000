@@ -20,12 +20,17 @@ end
 
 def now_serving(current_line)
   if 0 < current_line.length
-    count = 0
-      while current_line.length != 0 do
-        puts "Currently serving #{current_line[count]}."
-        count+=1
-      end
+    current_line.each do |person|
+      
+ end
   else
     puts "There is nobody waiting to be served!"
   end
 end
+
+
+#count = 0
+#  while current_line.length != 0 do
+#    puts "Currently serving #{current_line[count]}."
+#    count+=1
+#  end
