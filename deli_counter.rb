@@ -20,7 +20,7 @@ end
 
 def now_serving(current_line)
     current_line.each do |person|
-      puts "Currently serving #{person}"
+      puts "Currently serving #{person.join(" ")}"
     end
 
     puts "There is nobody waiting to be served!"
