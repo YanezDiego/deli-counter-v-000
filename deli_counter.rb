@@ -3,6 +3,10 @@ def line(current_line)
   counter = 1
   while current_line.length > 0 do
     puts "The line is currently: #{counter}. #{current_line}"
+
+    if current_line.length == 0
+      puts "The line is currently empty."
+    end
   end
 end
 
