@@ -30,8 +30,6 @@ def now_serving(current_line)
     current_line.shift()
   end
 
-    #puts "There is nobody waiting to be served!"
-
 end
 
 
