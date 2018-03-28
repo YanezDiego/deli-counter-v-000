@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(current_line)
-  if 0 < current_line.length
+  if current_line.length
     line = []
     i = 0
       while i < current_line.length do
