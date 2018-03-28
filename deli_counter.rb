@@ -22,7 +22,7 @@ def now_serving(current_line)
   if 0 < current_line.length
     i = 0
       while current_line.each != 0 do
-      puts "Currently serving #{current_line.shift()}."
+      puts "Currently serving #{current_line.shift(i)}."
       i+=1
     end
   else
