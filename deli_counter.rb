@@ -21,7 +21,7 @@ end
 def now_serving(current_line)
   if 0 < current_line.length
     count = 0
-      while current_line.length-1 do
+      while current_line.length != 0 do
         puts "Currently serving #{current_line[count]}."
         count+=1
       end
