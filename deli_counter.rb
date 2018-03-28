@@ -20,8 +20,8 @@ end
 
 def now_serving(current_line)
     current_line.each do |person|
-      current_line.shift()
       puts "Currently serving #{person}."
+      current_line.shift()
     end
 
     puts "There is nobody waiting to be served!"
