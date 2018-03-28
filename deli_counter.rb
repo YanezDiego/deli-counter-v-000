@@ -1,8 +1,9 @@
 # Write your code here.
 def line(current_line)
-  line = []
-  i = 0
   if 0 < current_line.length
+    line = []
+     i = 0
+    while i<current_line.length do |serving|
 
 
     puts "The line is currently: #{current_line}"
