@@ -21,7 +21,7 @@ end
 def now_serving(current_line)
   if 0 < current_line.length
     count = 0
-      while current_line.length == i do
+      while current_line.length-1 do
         line.push("#{current_line.shift(i)}")
         i+=1
       end
