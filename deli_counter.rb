@@ -21,6 +21,7 @@ end
 def now_serving(current_line)
     current_line.each do |person|
       puts "Currently serving #{person}."
+      binding.pry
       current_line.shift()
     end
 
