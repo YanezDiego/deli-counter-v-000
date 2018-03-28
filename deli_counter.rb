@@ -20,6 +20,7 @@ end
 
 def now_serving(current_line)
     current_line.each do |person|
+      person.shift
       puts "Currently serving #{person}"
     end
 
