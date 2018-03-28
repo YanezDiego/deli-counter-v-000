@@ -3,10 +3,9 @@ def line(current_line)
   if 0 < current_line.length
     line = []
      i = 0
-    while i < current_line.length do |serving|
-
-
-    puts "The line is currently: #{current_line}"
+    while i < current_line.length do
+      line.push ("#{i+=1}. #{current_line[i]}")
+    puts "The line is currently: #{line}"
   else
     puts "The line is currently empty."
   end
