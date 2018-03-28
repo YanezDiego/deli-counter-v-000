@@ -21,8 +21,10 @@ end
 def now_serving(current_line)
   if 0 < current_line.length
     line = []
-      while current_line.length != 0 do
-        current_line.shift()
+    i = 0
+      while i < current_line.length do
+        line.push("#{current_line(i)}")
+        i+=1
       end
       puts "Currently serving #{current_line}."
   else
