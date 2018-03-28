@@ -22,7 +22,7 @@ def now_serving(current_line)
   if 0 < current_line.length
     count = 0
       while current_line.length != 0 do
-        puts "Currently serving #{current_line[count]}."
+        puts "Currently serving #{current_line[count-1]}."
         count+=1
       end
   else
