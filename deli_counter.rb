@@ -4,7 +4,7 @@ def line(current_line)
     line = []
      i = 0
     while i < current_line.length do
-      line.push ("#{i+1}. #{current_line[i]}")
+      line.push ("#{i+1}. #{current_line[i]}") #created a loop to pass into a new array containing the right position with the correct name.
       i+=1
     end
     puts "The line is currently: #{line.join(" ")}"
