@@ -19,7 +19,6 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(current_line)
-
     current_line.each do |person|
       puts "Currently serving #{person.shift}"
     end
