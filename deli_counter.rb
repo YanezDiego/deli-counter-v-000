@@ -1,12 +1,15 @@
 # Write your code here.
 def line(current_line)
   line = []
+  i = 0
   if 0 < current_line.length
+
 
     puts "The line is currently: #{current_line}"
   else
     puts "The line is currently empty."
   end
+end
 end
 
 
