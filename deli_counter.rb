@@ -1,4 +1,6 @@
+require "pry"
 # Write your code here.
+
 def line(current_line)
   if 0 < current_line.length
     line = [] #created an empty array to push the information into it.
