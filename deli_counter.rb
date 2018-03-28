@@ -21,8 +21,8 @@ end
 def now_serving(current_line)
   if 0 < current_line.length
     current_line.each do |person|
-      
- end
+      puts "Currently serving #{person}"
+    end
   else
     puts "There is nobody waiting to be served!"
   end
