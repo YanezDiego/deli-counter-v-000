@@ -9,5 +9,4 @@ def line(current_line)
     line_is.push("The line is currently: #{counter}. #{name}")
     counter+=1
   end
-  puts line_is
 end
