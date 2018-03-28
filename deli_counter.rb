@@ -22,7 +22,8 @@ def now_serving(current_line)
   if 0 < current_line.length
     i = 0
       while current_line.each != 0 do
-      puts "Currently serving #{current_line}."
+      puts "Currently serving #{current_line[i]}."
+      i+=1
     end
   else
     puts "There is nobody waiting to be served!"
