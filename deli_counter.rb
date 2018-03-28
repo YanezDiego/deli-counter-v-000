@@ -13,6 +13,6 @@ def line(current_line)
   end
 end
 
-def take_a_number(line, name)
-  line.push(name)
+def take_a_number(katz_deli, name)
+
 end
