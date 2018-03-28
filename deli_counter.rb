@@ -1,6 +1,6 @@
 # Write your code here.
 def line(current_line)
-  counter = 1
+  count = 1
   while current_line.length > 0 do
     puts "The line is currently: #{counter}. #{current_line}"
     count+=1
