@@ -4,7 +4,7 @@ def line(current_line)
     line = []
      i = 0
     while i < current_line.length do
-      line.push ("#{i}. #{current_line}")
+      line.push ("#{i+1}. #{current_line}")
       i+=1
     end
     puts "The line is currently: #{line}"
