@@ -6,10 +6,10 @@ def line(current_line)
     while i < current_line.length do
       line.push ("#{i+=1}. #{current_line[i]}")
     puts "The line is currently: #{line}"
+    end 
   else
     puts "The line is currently empty."
   end
-end
 end
 
 
