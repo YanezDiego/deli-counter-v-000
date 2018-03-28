@@ -22,7 +22,7 @@ def now_serving(current_line)
   if 0 < current_line.length
     line = []
     i = 0
-      while i < current_line.length do
+      while current_line.length == 0 do
         line.push("#{current_line(i)}")
         i+=1
       end
