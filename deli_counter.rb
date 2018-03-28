@@ -4,9 +4,9 @@ def line(current_line)
     line = []
      i = 0
     while i < current_line.length do
-      line.push ("#{i+=1}. #{current_line[i]}")
+      line.push ("#{i+=1}. #{current_line}")
     puts "The line is currently: #{line}"
-    end 
+    end
   else
     puts "The line is currently empty."
   end
