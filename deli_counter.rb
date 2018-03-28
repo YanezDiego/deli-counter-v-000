@@ -4,6 +4,7 @@ def line(current_line)
     puts "The line is currently: #{current_line.length+=1}"
   else
     puts "The line is currently empty."
+  end
 end
 
 
