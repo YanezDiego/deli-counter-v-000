@@ -20,6 +20,7 @@ end
 
 def now_serving(current_line)
   if 0 < current_line.length
+    line = []
       while current_line.length != 0 do
         current_line.shift()
       end
