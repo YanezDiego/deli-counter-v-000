@@ -21,6 +21,13 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(current_line)
+
+  if current_line.empty?
+    puts "There is nobody waiting to be served!"
+
+  else
+    puts "Currently serving #{current_line}."
+    current_line.shift()
     current_line.each do |person|
       puts "Currently serving #{person}."
       binding.pry
@@ -30,6 +37,9 @@ def now_serving(current_line)
     puts "There is nobody waiting to be served!"
 
 end
+
+
+current_line[0]
 
 #if 0 < current_line.length
 #count = 0
