@@ -6,7 +6,7 @@ def line(current_line)
   line_is = []
   counter = 1
   current_line.each do |name|
-    current_line.push("The line is currently: #{counter}. #{name}")
+    line_is.push("The line is currently: #{counter}. #{name}")
     counter+=1
   end
 
