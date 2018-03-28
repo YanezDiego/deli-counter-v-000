@@ -7,6 +7,7 @@ def line(katz_deli)
     counter+=1
   end
   return current_line
+  
     if katz_deli.lenth == 0
       puts "The line is currently empty."
     end
