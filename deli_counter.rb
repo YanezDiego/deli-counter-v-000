@@ -4,10 +4,10 @@ def line(current_line)
     line = []
      i = 0
     while i < current_line.length do
-      line.push ("#{i+1}. #{current_line}")
+      line.push ("#{i+1}. #{current_line.join}")
       i+=1
     end
-    puts "The line is currently: #{line.join(" ")}"
+    puts "The line is currently: #{line.join}"
   else
     puts "The line is currently empty."
   end
