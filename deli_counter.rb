@@ -23,7 +23,7 @@ def now_serving(current_line)
     line = []
     i = 0
       while current_line.length == 0 do
-        line.push("#{current_line(i=1)}")
+        line.push("#{current_line}")
         i+=1
       end
       puts "Currently serving #{line.shift(i)}."
