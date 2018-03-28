@@ -6,6 +6,8 @@ def line(katz_deli)
     current_line.push("The line is currently: #{counter}. #{name}")
     counter+=1
   end
-  if katz_deli.lenth == 0
-    puts "The line is currently empty."
+  return current_line
+    if katz_deli.lenth == 0
+      puts "The line is currently empty."
+    end
 end
